@@ -10,9 +10,12 @@ Note depend you toggle the "closure" type, lambda (𝛌) symbol will be add in t
 
 Enjoy!
 
+## Why this?
+
 I made this app, and the inner core algorithm by my self, due too I'm currently taking a University's course ("Computer Theory" or "Teoria de la Computacion"), which this kind of exercise are required. 
 So, with this calculator, I can be sure, if my handwriting result is correct.
 
+## ScreenShots
 
 <table style="width: 100%; border-collapse: collapse; border-style: none;" border="0">
 <tbody>

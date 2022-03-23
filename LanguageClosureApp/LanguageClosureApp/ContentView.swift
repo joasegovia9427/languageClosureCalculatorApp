@@ -14,9 +14,9 @@ struct ContentView: View {
     @State var chain3="𝛌"
     @State var chain4=""
     
-    @State var isToggleClausureAll = true
+    @State var isToggleClosureAll = true
     
-    @State var lenguageResult=""
+    @State var languageResult=""
     
     @State var isAlertCanRun = false
     
@@ -26,7 +26,7 @@ struct ContentView: View {
             ScrollView{
                 VStack {
                     VStack {
-                        Text("Lenguages Clausures Calculator!")
+                        Text("Language Closure Calculator")
                             .font(.title)
                             .fontWeight(.bold)
                             .foregroundColor(.white)
@@ -57,7 +57,7 @@ struct ContentView: View {
                             
                             ZStack{
                                 //                                Color("DarkBlue")
-                                Toggle("Clausure * o + ?", isOn: $isToggleClausureAll).foregroundColor(.white)
+                                Toggle("Closure * o + ?", isOn: $isToggleClosureAll).foregroundColor(.white)
                             }
                             
                         }.padding(.leading, 10).padding(.trailing, 10)
@@ -69,7 +69,7 @@ struct ContentView: View {
                     
                     
                     VStack {
-                        Button(action: {calculateLenguage()}, label: {
+                        Button(action: {calculateLanguage()}, label: {
                             Text("Run").font(.title).foregroundColor(.white).multilineTextAlignment(.leading)
                                 .frame(maxWidth: .infinity, alignment: .center)
                                 .padding(EdgeInsets(top: 11, leading: 18, bottom: 11, trailing: 18)).overlay(RoundedRectangle(cornerRadius: 12).stroke(Color(.white), lineWidth: 2).shadow(color: .white, radius: 6))
@@ -78,13 +78,13 @@ struct ContentView: View {
                         }
                         
                         
-                        Text("\(lenguageResult)").foregroundColor(.white).multilineTextAlignment(.leading).frame(width:350, height: 100)
+                        Text("\(languageResult)").foregroundColor(.white).multilineTextAlignment(.leading).frame(width:350, height: 100)
                         ZStack{
                             Color("BlueAction")
                             
-                            TextField("Result: ", text: $lenguageResult).frame(width:350, height: 50).padding(10).background(Color("BlueAction")).foregroundColor(.white)
+                            TextField("Result: ", text: $languageResult).frame(width:350, height: 50).padding(10).background(Color("BlueAction")).foregroundColor(.white)
                             
-                            if lenguageResult.isEmpty{
+                            if languageResult.isEmpty{
                                 Text("Result: ").foregroundColor(.white).multilineTextAlignment(.leading).frame(width:350, height: 50)
                             }
                             
@@ -111,7 +111,7 @@ struct ContentView: View {
         
     }
     
-    func calculateLenguage() {
+    func calculateLanguage() {
         UIApplication.shared.keyWindow?.endEditing(true)
         
 //        var keyboardDismissMode: UIScrollView.KeyboardDismissMode { get set }
@@ -119,7 +119,7 @@ struct ContentView: View {
         
 //        scrollView.keyboardDismissMode = .interactive
         
-        lenguageResult = ""
+        languageResult = ""
         
         
         if chain1.isEmpty && chain2.isEmpty && chain3.isEmpty && chain4.isEmpty {
@@ -130,7 +130,7 @@ struct ContentView: View {
             var stringToApend = ""
             
             var resultadoAux = ""
-            if isToggleClausureAll {
+            if isToggleClosureAll {
                 resultadoAux = resultadoAux + "𝛌, "
             }
             
@@ -182,27 +182,27 @@ struct ContentView: View {
             
 //            var unique = Array(Set(arrayIncremental))
 //            unique.sort()
-//            if isToggleClausureAll {
-//                lenguageResult = lenguageResult + "𝛌, "
+//            if isToggleClosureAll {
+//                languageResult = languageResult + "𝛌, "
 //            }
 //            for chain in arrayInit {
 //                lenguageResult = lenguageResult + chain + ", "
 //                unique = unique.filter { $0 != chain }
 //            }
 //            for chain in unique {
-//                lenguageResult = lenguageResult + chain + ", "
+//                languageResult = languageResult + chain + ", "
 //            }
             
             
-            lenguageResult = resultadoAux
+            languageResult = resultadoAux
             
-            lenguageResult = lenguageResult + " ... "
+            languageResult = languageResult + " ... "
             
         }
     }
     
     func copyResult() {
-        UIPasteboard.general.string = lenguageResult
+        UIPasteboard.general.string = languageResult
         
         
     }

@@ -14,12 +14,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2031DC0A27E94CF60096B9EF /* LenguageClausures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LenguageClausures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2031DC0A27E94CF60096B9EF /* LanguageClosureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageClosureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2031DC0D27E94CF60096B9EF /* LenguageClausuresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenguageClausuresApp.swift; sourceTree = "<group>"; };
 		2031DC0F27E94CF60096B9EF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2031DC1127E94CF90096B9EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2031DC1427E94CF90096B9EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		20DA4DA327EA170F0040AAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		20DA4DA327EA170F0040AAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 		2031DC0127E94CF60096B9EF = {
 			isa = PBXGroup;
 			children = (
-				2031DC0C27E94CF60096B9EF /* LenguageClausures */,
+				2031DC0C27E94CF60096B9EF /* LanguageClosureApp */,
 				2031DC0B27E94CF60096B9EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,12 +44,12 @@
 		2031DC0B27E94CF60096B9EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2031DC0A27E94CF60096B9EF /* LenguageClausures.app */,
+				2031DC0A27E94CF60096B9EF /* LanguageClosureApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2031DC0C27E94CF60096B9EF /* LenguageClausures */ = {
+		2031DC0C27E94CF60096B9EF /* LanguageClosureApp */ = {
 			isa = PBXGroup;
 			children = (
 				20DA4DA327EA170F0040AAC3 /* Info.plist */,
@@ -58,7 +58,7 @@
 				2031DC1127E94CF90096B9EF /* Assets.xcassets */,
 				2031DC1327E94CF90096B9EF /* Preview Content */,
 			);
-			path = LenguageClausures;
+			path = LanguageClosureApp;
 			sourceTree = "<group>";
 		};
 		2031DC1327E94CF90096B9EF /* Preview Content */ = {
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2031DC0927E94CF60096B9EF /* LenguageClausures */ = {
+		2031DC0927E94CF60096B9EF /* LanguageClosureApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2031DC1827E94CF90096B9EF /* Build configuration list for PBXNativeTarget "LenguageClausures" */;
+			buildConfigurationList = 2031DC1827E94CF90096B9EF /* Build configuration list for PBXNativeTarget "LanguageClosureApp" */;
 			buildPhases = (
 				2031DC0627E94CF60096B9EF /* Sources */,
 				2031DC0727E94CF60096B9EF /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = LenguageClausures;
+			name = LanguageClosureApp;
 			productName = LenguageClausures;
-			productReference = 2031DC0A27E94CF60096B9EF /* LenguageClausures.app */;
+			productReference = 2031DC0A27E94CF60096B9EF /* LanguageClosureApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2031DC0527E94CF60096B9EF /* Build configuration list for PBXProject "LenguageClausures" */;
+			buildConfigurationList = 2031DC0527E94CF60096B9EF /* Build configuration list for PBXProject "LanguageClosureApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -117,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2031DC0927E94CF60096B9EF /* LenguageClausures */,
+				2031DC0927E94CF60096B9EF /* LanguageClosureApp */,
 			);
 		};
 /* End PBXProject section */
@@ -268,11 +268,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LenguageClausures/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LanguageClosureApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Z53LMM5TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LenguageClausures/Info.plist;
+				INFOPLIST_FILE = LanguageClosureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -283,7 +283,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joasegovia9427.LenguageClausures;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joasegovia9427.LanguageClosureApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -298,11 +298,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"LenguageClausures/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LanguageClosureApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 5Z53LMM5TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LenguageClausures/Info.plist;
+				INFOPLIST_FILE = LanguageClosureApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.joasegovia9427.LenguageClausures;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joasegovia9427.LanguageClosureApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2031DC0527E94CF60096B9EF /* Build configuration list for PBXProject "LenguageClausures" */ = {
+		2031DC0527E94CF60096B9EF /* Build configuration list for PBXProject "LanguageClosureApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2031DC1627E94CF90096B9EF /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2031DC1827E94CF90096B9EF /* Build configuration list for PBXNativeTarget "LenguageClausures" */ = {
+		2031DC1827E94CF90096B9EF /* Build configuration list for PBXNativeTarget "LanguageClosureApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2031DC1927E94CF90096B9EF /* Debug */,

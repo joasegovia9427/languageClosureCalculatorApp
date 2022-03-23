@@ -1,7 +1,7 @@
 # languageClosureCalculatorApp
 iOS App
 
-You can add 4 chains, and toggle if you want a common "closure" or a positive "closure".
+You can add 4 chains, and toggle if you want a common "closure" or a positive "closure", about one "language".
 After that, you just tap over RUN button.
 It will be display the result below and a text field in case you want to select part of it.
 Also, you have got a COPY button, to save in device's clipboard all the result.
